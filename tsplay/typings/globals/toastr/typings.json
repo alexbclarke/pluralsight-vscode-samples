@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/ed38db403a56da84731a6f77b545762ee477a45b/toastr/toastr.d.ts",
+    "raw": "github:DefinitelyTyped/DefinitelyTyped/toastr/toastr.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/ed38db403a56da84731a6f77b545762ee477a45b/toastr/toastr.d.ts"
+  }
+}

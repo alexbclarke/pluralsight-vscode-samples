@@ -11,7 +11,7 @@ var app;
             }
             AdminController.$inject = ['logger'];
             return AdminController;
-        })();
+        }());
         admin.AdminController = AdminController;
         angular
             .module('app.admin')

@@ -1,0 +1,23 @@
+{
+  "name": "ticino-hottowel",
+  "globalDependencies": {
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#52fa2b9ce36f2c5843204e9bfbaada7cded9b47a",
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#52fa2b9ce36f2c5843204e9bfbaada7cded9b47a",
+    "chai": "github:DefinitelyTyped/DefinitelyTyped/chai/chai.d.ts#52fa2b9ce36f2c5843204e9bfbaada7cded9b47a",
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "sinon": "github:DefinitelyTyped/DefinitelyTyped/sinon/sinon.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#68114f9ff37de0f92c94126b6e0164e026a1737a",
+    "express": "github:DefinitelyTyped/DefinitelyTyped/express/express.d.ts#609c6a7a11a79e0e831a301f1def7b581853216f",
+    "angular-ui-router": "github:DefinitelyTyped/DefinitelyTyped/angular-ui-router/angular-ui-router.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "bootstrap": "github:DefinitelyTyped/DefinitelyTyped/bootstrap/bootstrap.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "moment": "github:DefinitelyTyped/DefinitelyTyped/moment/moment.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "toastr": "github:DefinitelyTyped/DefinitelyTyped/toastr/toastr.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "angular-animate": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-animate.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "angular-sanitize": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-sanitize.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "morgan": "github:DefinitelyTyped/DefinitelyTyped/morgan/morgan.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "serve-favicon": "github:DefinitelyTyped/DefinitelyTyped/serve-favicon/serve-favicon.d.ts#ed38db403a56da84731a6f77b545762ee477a45b",
+    "angular-mocks": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-mocks.d.ts#52fa2b9ce36f2c5843204e9bfbaada7cded9b47a",
+    "body-parser": "github:DefinitelyTyped/DefinitelyTyped/body-parser/body-parser.d.ts#609c6a7a11a79e0e831a301f1def7b581853216f",
+    "gulp": "github:DefinitelyTyped/DefinitelyTyped/gulp/gulp.d.ts#68114f9ff37de0f92c94126b6e0164e026a1737a"
+  }
+}

@@ -18,7 +18,7 @@ var blocks;
             };
             ExceptionHandlerProvider.$inject = [];
             return ExceptionHandlerProvider;
-        })();
+        }());
         exception_1.ExceptionHandlerProvider = ExceptionHandlerProvider;
         config.$inject = ['$provide'];
         function config($provide) {

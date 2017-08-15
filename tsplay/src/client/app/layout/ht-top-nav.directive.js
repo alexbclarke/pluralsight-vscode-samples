@@ -17,12 +17,12 @@ var applayout;
         };
         HtTopNav.$inject = [''];
         return HtTopNav;
-    })();
+    }());
     var TopNavController = (function () {
         function TopNavController() {
         }
         return TopNavController;
-    })();
+    }());
     angular
         .module('app.layout')
         .directive('htTopNav', HtTopNav.instance);

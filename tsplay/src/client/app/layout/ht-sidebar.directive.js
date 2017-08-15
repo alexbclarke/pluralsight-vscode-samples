@@ -41,7 +41,7 @@ var app;
             };
             HtSidebar.$inject = [''];
             return HtSidebar;
-        })();
+        }());
         angular
             .module('app.layout')
             .directive('htSidebar', HtSidebar.instance);
