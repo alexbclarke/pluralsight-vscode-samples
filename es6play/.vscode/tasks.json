@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "Xc Babel task",
+            "type": "process",
+            "command": "node_modules/.bin/babel",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "args": [
+                "js",
+                "--out-dir",
+                "dist",
+                "--source_maps"
+            ]
+        }
+    ]
+}
