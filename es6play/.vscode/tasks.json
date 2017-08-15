@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "taskName": "Xc Babel task",
+            "taskName": "Xc Babel",
             "type": "process",
             "command": "node_modules/.bin/babel",
             "group": {
@@ -13,6 +13,20 @@
                 "js",
                 "--out-dir",
                 "dist",
+                "--source_maps"
+            ]
+        },
+        {
+            "taskName": "Xc Babel Watch",
+            "type": "process",
+            "command": "node_modules/.bin/babel",
+            "isBackground": true,
+
+            "args": [
+                "js",
+                "--out-dir",
+                "dist",
+                "-w",
                 "--source_maps"
             ]
         }
