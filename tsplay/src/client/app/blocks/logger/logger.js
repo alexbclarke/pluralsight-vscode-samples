@@ -34,7 +34,7 @@ var blocks;
             };
             Logger.$inject = ['$log', 'toastr'];
             return Logger;
-        })();
+        }());
         logger.Logger = Logger;
         angular
             .module('blocks.logger')

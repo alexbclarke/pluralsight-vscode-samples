@@ -25,7 +25,7 @@ var app;
             };
             HtWidgetHeader.$inject = [''];
             return HtWidgetHeader;
-        })();
+        }());
         angular
             .module('app.widgets')
             .directive('htWidgetHeader', HtWidgetHeader.instance);

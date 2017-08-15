@@ -24,7 +24,7 @@ var app;
             };
             SidebarController.$inject = ['$state'];
             return SidebarController;
-        })();
+        }());
         layout.SidebarController = SidebarController;
         angular
             .module('app.layout')

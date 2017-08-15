@@ -11,7 +11,7 @@ var blocks;
             }
             Exception.$inject = ['logger'];
             return Exception;
-        })();
+        }());
         exception.Exception = Exception;
         angular
             .module('blocks.exception')

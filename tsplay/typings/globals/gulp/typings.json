@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/68114f9ff37de0f92c94126b6e0164e026a1737a/gulp/gulp.d.ts",
+    "raw": "github:DefinitelyTyped/DefinitelyTyped/gulp/gulp.d.ts#68114f9ff37de0f92c94126b6e0164e026a1737a",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/68114f9ff37de0f92c94126b6e0164e026a1737a/gulp/gulp.d.ts"
+  }
+}

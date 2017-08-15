@@ -1,0 +1,41 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "Xc tsc",
+            "type": "process",
+            "command": "tsc",
+            "problemMatcher":"$tsc",
+            "args": [
+                "-p",
+                "${workspaceRoot}/src/client"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "options": {
+                
+            }
+        },
+        {
+            "taskName": "Xc tsc watch",
+            "type": "process",
+            "command": "tsc",
+            "problemMatcher":"$tsc-watch",
+            "args": [
+                "-p",
+                "${workspaceRoot}/src/client",
+                "-w"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "options": {
+
+            }
+        },
+        
+    ]
+}

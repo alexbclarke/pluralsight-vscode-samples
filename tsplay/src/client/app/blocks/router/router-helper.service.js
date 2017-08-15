@@ -48,7 +48,7 @@ var blocks;
             };
             RouterHelper.$inject = ['$location', '$rootScope', '$state', 'logger'];
             return RouterHelper;
-        })();
+        }());
         router.RouterHelper = RouterHelper;
         angular
             .module('blocks.router')
