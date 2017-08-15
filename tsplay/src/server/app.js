@@ -1,11 +1,10 @@
 /*jshint node:true*/
 'use strict';
-Object.defineProperty(exports, "__esModule", { value: true });
-var express = require("express");
-var favicon = require("serve-favicon");
-var logger = require("morgan");
-var bodyParser = require("body-parser");
-var notfound_1 = require("./utils/notfound"); // use latest TS 1.5, inspired from ES6
+var express = require('express');
+var favicon = require('serve-favicon');
+var logger = require('morgan');
+var bodyParser = require('body-parser');
+var notfound_1 = require('./utils/notfound'); // use latest TS 1.5, inspired from ES6
 //import four0four = require('./utils/notfound');
 //var send404 = four0four.send404;
 var app = express();

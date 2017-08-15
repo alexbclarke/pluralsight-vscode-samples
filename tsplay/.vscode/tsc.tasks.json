@@ -7,12 +7,13 @@
             "taskName": "Xc tsc",
             "type": "process",
             "command": "tsc",
+            "problemMatcher":"$tsc",
             "args": [
                 "-p",
                 "${workspaceRoot}/src/client"
             ],
             "presentation": {
-                "reveal": "silent"
+                "reveal": "always"
             },
             "options": {
                 
@@ -22,6 +23,7 @@
             "taskName": "Xc tsc watch",
             "type": "process",
             "command": "tsc",
+            "problemMatcher":"$tsc-watch",
             "args": [
                 "-p",
                 "${workspaceRoot}/src/client",
@@ -31,8 +33,9 @@
                 "reveal": "always"
             },
             "options": {
-                
+
             }
-        }
+        },
+        
     ]
 }

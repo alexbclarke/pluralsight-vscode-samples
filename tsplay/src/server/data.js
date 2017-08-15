@@ -1,5 +1,5 @@
-"use strict";
 /*jshint node:true*/
+"use strict";
 var data;
 (function (data) {
     'use strict';

@@ -1,6 +1,5 @@
 /*jshint node:true*/
 'use strict';
-Object.defineProperty(exports, "__esModule", { value: true });
 //TODO EG type next argument
 function notFoundMiddleware(req, res, next) {
     send404(req, res, 'API endpoint not found');
