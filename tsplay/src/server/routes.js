@@ -1,10 +1,11 @@
 /*jshint node:true*/
 'use strict';
-var express = require('express');
+Object.defineProperty(exports, "__esModule", { value: true });
+var express = require("express");
 var router = express.Router();
-var notfound_1 = require('./utils/notfound'); // use latest TS 1.5, inspired from ES6
+var notfound_1 = require("./utils/notfound"); // use latest TS 1.5, inspired from ES6
 //import four0four = require('./utils/404');
-var data = require('./data');
+var data = require("./data");
 router.get('/people', getPeople);
 router.get('/person/:id', getPerson);
 router.get('/*', notfound_1.notFoundMiddleware);
